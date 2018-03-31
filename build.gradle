@@ -26,7 +26,7 @@ targetCompatibility = 1.8
 
 minecraft {
     version = "1.8.9"
-    tweakClass = "com.hcc.launch.HCCTweaker"
+    tweakClass = "cc.hyperium.launch.HyperiumTweaker"
     mappings = "stable_20"
     runDir = 'run'
     makeObfSourceJar = true
