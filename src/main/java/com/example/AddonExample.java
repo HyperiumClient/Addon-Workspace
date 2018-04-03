@@ -1,10 +1,10 @@
 package com.example;
 
-import com.hcc.addons.annotations.Addon;
-import com.hcc.addons.annotations.Instance;
-import com.hcc.event.InitializationEvent;
-import com.hcc.event.InvokeEvent;
-import com.hcc.event.RenderHUDEvent;
+import cc.hyperium.addons.annotations.Addon;
+import cc.hyperium.addons.annotations.Instance;
+import cc.hyperium.event.InitializationEvent;
+import cc.hyperium.event.InvokeEvent;
+import cc.hyperium.event.RenderHUDEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 
