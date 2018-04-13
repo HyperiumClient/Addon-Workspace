@@ -1,29 +1,27 @@
 package com.example;
 
-import cc.hyperium.addons.annotations.Addon;
-import cc.hyperium.addons.annotations.Instance;
-import cc.hyperium.event.InitializationEvent;
-import cc.hyperium.event.InvokeEvent;
-import cc.hyperium.event.RenderHUDEvent;
+import cc.hyperium.event.*;
+import cc.hyperium.internal.addons.IAddon;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.FontRenderer;
 
-@Addon(modid="AddonExample",version = "1.0")
-public class AddonExample {
+public class AddonExample implements IAddon {
 
-    @Instance
-    public static AddonExample INSTANCE;
 
-    private FontRenderer fontRenderer;
-
-    @InvokeEvent
-    public void init(InitializationEvent event) {
-        this.fontRenderer = Minecraft.getMinecraft().fontRendererObj;
+    @Override
+    public void onLoad() {
+        System.out.println("Sucesfully loaded Addon!");
+        EventBus.INSTANCE.register(this);
     }
 
     @InvokeEvent
-    public void render(RenderHUDEvent event) {
-        fontRenderer.drawString("FPS: " + Minecraft.getDebugFPS(), 1, 1, 0xFFFFFF);
+    private void onChatMessage(ChatEvent event) {
+        if(event.getChat().getUnformattedText().contains("secret message!")) {
+            Minecraft.getMinecraft().toggleFullscreen();
+        }
     }
 
+    @Override
+    public void onClose() {
+        System.out.println("Closing...");
+    }
 }

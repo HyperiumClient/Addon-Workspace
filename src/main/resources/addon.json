@@ -1,5 +1,5 @@
 {
-  "name":"AddonExample",
+  "name":"Addon Example",
   "version":"1.0",
-  "main":"com.example.AddonExample"
+  "mainClass":"com.example.AddonExample"
 }
