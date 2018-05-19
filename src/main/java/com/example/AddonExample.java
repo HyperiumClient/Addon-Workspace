@@ -24,4 +24,8 @@ public class AddonExample implements IAddon {
     public void onClose() {
         System.out.println("Closing...");
     }
+    
+    @Override
+    public void sendDebugInfo() {
+    }
 }
