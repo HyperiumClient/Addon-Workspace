@@ -1,6 +1,6 @@
 {
   "name":"Addon Example",
   "version":"1.0",
-  "mainClass":"com.example.AddonExample"
+  "mainClass":"com.example.AddonExample",
   "desc":"An example addon"
 }
