@@ -1,0 +1,6 @@
+{
+  "name":"CustomRP Addon",
+  "version":"Dev 1.0.0",
+  "mainClass":"me.shardcoder.addon.CustomRP",
+  "desc":"Customise how the Rich Presence of Hyperium is displayed"
+}
