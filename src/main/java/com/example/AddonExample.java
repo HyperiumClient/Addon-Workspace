@@ -6,7 +6,6 @@ import net.minecraft.client.Minecraft;
 
 public class AddonExample implements IAddon {
 
-
     @Override
     public void onLoad() {
         System.out.println("Sucesfully loaded Addon!");
