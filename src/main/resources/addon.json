@@ -2,6 +2,6 @@
   "name":"Addon Example",
   "version":"1.0",
   "mainClass":"com.example.AddonExample",
-  "desc": "Hyperium Addon Example",
-  "overlay": "com.example.overlay.OverlayExample"
+  "desc":"Hyperium Addon Example",
+  "overlay":"com.example.overlay.OverlayExample"
 }
