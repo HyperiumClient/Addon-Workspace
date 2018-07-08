@@ -1,6 +1,7 @@
 package com.example.overlay;
 
 import cc.hyperium.gui.main.HyperiumOverlay;
+import cc.hyperium.gui.main.components.OverlayLabel;
 
 public class OverlayExample extends HyperiumOverlay {
 
