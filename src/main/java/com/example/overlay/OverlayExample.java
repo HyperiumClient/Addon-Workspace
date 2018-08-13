@@ -9,7 +9,7 @@ public class OverlayExample extends HyperiumOverlay {
     
     public OverlayExample(){
         try {
-            this.addToggle("example toggle", hey, null);
+            this.addToggle("example toggle", null, null, hey);
             this.getComponents().add(new OverlayLabel("Example Text"));
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
