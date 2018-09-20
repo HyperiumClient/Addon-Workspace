@@ -8,7 +8,6 @@ public class OverlayExample extends HyperiumOverlay {
     public static boolean hey = false;
     
     public OverlayExample(){
-        try {
             this.addToggle("example toggle", null, null, hey);
             this.getComponents().add(new OverlayLabel("Example Text"));
     }
