@@ -1,6 +1,8 @@
 package com.example;
 
 import cc.hyperium.event.ChatEvent;
+import cc.hyperium.event.EventBus;
+import cc.hyperium.event.InvokeEvent;
 import cc.hyperium.internal.addons.IAddon;
 
 import net.minecraft.client.Minecraft;
