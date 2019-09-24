@@ -17,7 +17,7 @@ public class AddonExample implements IAddon {
     }
 
     @InvokeEvent
-    private void onChatMessage(ChatEvent event) {
+    public void onChatMessage(ChatEvent event) {
         if (event.getChat().getUnformattedText().contains("secret message!")) {
             Minecraft.getMinecraft().toggleFullscreen();
         }
