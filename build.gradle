@@ -27,7 +27,7 @@ minecraft {
     tweakClass = "cc.hyperium.launch.HyperiumTweaker"
     mappings = "stable_22"
     runDir = 'run'
-    makeObfSourceJar = true
+    makeObfSourceJar = false
 }
 
 repositories {
