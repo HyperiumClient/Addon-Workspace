@@ -2,5 +2,6 @@
   "name":"Addon Example",
   "version":"1.0",
   "mainClass":"com.example.AddonExample",
-  "desc":"Hyperium Addon Example"
+  "desc":"Hyperium Addon Example",
+  "versionCode": "1.0"
 }
