@@ -62,7 +62,7 @@ public class AddonExample implements IAddon {
      */
     @Override
     public void onLoad() {
-        // Inform the user that the addon has loaded
+        // Log that the addon has loaded
         Hyperium.LOGGER.info("Successfully loaded Addon!");
         
         // Register the class to the EventBus
@@ -90,7 +90,7 @@ public class AddonExample implements IAddon {
      */
     @Override
     public void onClose() {
-        // Inform the user that the addon is being closed
+        // Log that the addon is being closed
         Hyperium.LOGGER.info("Closing...");
     }
 
